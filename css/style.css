@@ -1,0 +1,104 @@
+@import url(https://fonts.googleapis.com/css?family=Heebo:400,500);
+
+
+html,
+body {
+  background-color:;
+  text-align: center;
+  font-family: 'Heebo', Helvetica, sans-serif;
+  min-width: 320px;
+}
+
+
+#form-main {
+  display: flex;
+  flex-wrap: wrap;
+  width: 65%;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 0 auto;
+  background-color: #e2fff7;
+}
+
+#survey-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.form-row > div {
+  flex: 1;
+}
+
+.main-title {
+  display: flex;
+  justify-content: center
+}
+
+.titles {
+  display:flex;
+  justify-content: flex-end;
+  margin-right: 1em;
+  margin-bottom: 0.7em;
+}
+
+.input-field {
+  display: flex;
+  justify-content: flex-start;
+  height: 20px;
+  width: 300px;
+  margin-bottom: 2em;
+}
+
+.radio-field {
+  display: flex;
+
+  background-color: brown
+}
+
+
+label.flexed {
+	display: flex;
+  flex-wrap: wrap;
+	align-items: baseline;
+}
+
+.flexed {
+  margin-bottom: 0.2em;
+  justify-content: flex-start;
+}
+
+fieldset {
+    border: 0;
+    width: 49.5%;
+    padding: 0;
+    text-indent: 0;
+    margin: 0;
+}
+
+label.flexed input[type=radio] {
+	flex: none;
+	margin-right: 0.3rem;
+}
+
+label.flexed input[type=checkbox] {
+	flex: none;
+	margin-right: 0.3rem;
+}
+
+#submit {
+  background-color: green;
+  border-radius: 4px;
+  color: white;
+  font-size: 1em;
+  height: 40px;
+  width: 96px;
+  margin: 10px;
+  border: 0px solid;
+}
