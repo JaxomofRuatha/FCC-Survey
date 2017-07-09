@@ -3,7 +3,7 @@
 
 html,
 body {
-  background-color:;
+  background-color: #33346B;
   text-align: center;
   font-family: 'Heebo', Helvetica, sans-serif;
   min-width: 320px;
@@ -17,7 +17,7 @@ body {
   flex-direction: column;
   margin: 0 auto;
   padding: 0 auto;
-  background-color: #e2fff7;
+  background-color: #98DFAF;
 }
 
 #survey-form {
@@ -36,9 +36,9 @@ body {
   flex: 1;
 }
 
-.main-title {
-  display: flex;
-  justify-content: center
+#main-title {
+  text-align: center;
+  color: #DEEFB7;
 }
 
 .titles {
@@ -93,7 +93,7 @@ label.flexed input[type=checkbox] {
 }
 
 #submit {
-  background-color: green;
+  background-color: #682D63;
   border-radius: 4px;
   color: white;
   font-size: 1em;
