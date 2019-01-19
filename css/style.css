@@ -1,23 +1,22 @@
-@import url(https://fonts.googleapis.com/css?family=Heebo:400,500);
-
+@import url(https://fonts.googleapis.com/css?family=Heebo:400);
 
 html,
 body {
-  background-color: #33346B;
+  background-color: #33346b;
   text-align: center;
   font-family: 'Heebo', Helvetica, sans-serif;
   min-width: 320px;
 }
 
-
-#form-main {
+#main-content {
   display: flex;
   flex-wrap: wrap;
   width: 65%;
   flex-direction: column;
   margin: 0 auto;
-  padding: 0 auto;
-  background-color: #98DFAF;
+  padding: 0 20px;
+  background-color: #98dfaf;
+  border-radius: 20px;
 }
 
 #survey-form {
@@ -36,13 +35,13 @@ body {
   flex: 1;
 }
 
-#main-title {
+#title {
   text-align: center;
-  color: #DEEFB7;
+  color: whitesmoke;
 }
 
 .titles {
-  display:flex;
+  display: flex;
   justify-content: flex-end;
   margin-right: 1em;
   margin-bottom: 0.7em;
@@ -58,15 +57,13 @@ body {
 
 .radio-field {
   display: flex;
-
-  background-color: brown
+  background-color: brown;
 }
 
-
 label.flexed {
-	display: flex;
+  display: flex;
   flex-wrap: wrap;
-	align-items: baseline;
+  align-items: baseline;
 }
 
 .flexed {
@@ -75,25 +72,30 @@ label.flexed {
 }
 
 fieldset {
-    border: 0;
-    width: 49.5%;
-    padding: 0;
-    text-indent: 0;
-    margin: 0;
+  border: 0;
+  width: 49.5%;
+  padding: 0;
+  text-indent: 0;
+  margin: 0;
 }
 
-label.flexed input[type=radio] {
-	flex: none;
-	margin-right: 0.3rem;
+label.flexed input[type='radio'] {
+  flex: none;
+  margin-right: 0.3rem;
 }
 
-label.flexed input[type=checkbox] {
-	flex: none;
-	margin-right: 0.3rem;
+label.flexed input[type='checkbox'] {
+  flex: none;
+  margin-right: 0.3rem;
+}
+
+#comments {
+  height: 50px;
+  resize: vertical;
 }
 
 #submit {
-  background-color: #682D63;
+  background-color: #682d63;
   border-radius: 4px;
   color: white;
   font-size: 1em;
